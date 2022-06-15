@@ -1,0 +1,201 @@
+* {
+    background-color: #f1f1f2;
+    /* background-image: url('images/background.png');
+    background-repeat:repeat-x; */
+}
+
+
+
+head {
+    /* background-color: #f1f1f2; */
+    background-image: url("images/background.png");
+     background-repeat:repeat-y;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    /* font-weight:Bold; */
+    text-align: center;
+    /* color: #123456;    Dark Blue */
+    /* background-color: LavenderBlush; */
+    margin:0;
+    /* padding: 3em 6em; */
+    font-size: 14px;
+    /* font-family: tahoma, arial, sans-serif;
+    background: url("images/bg.png") no-repeat scroll -175px -25px transparent!Important; */
+ 
+}
+
+/* 
+h1 {
+ font-size: 15px;
+ font-weight:  Normal;
+}
+h2 {
+ font-size: 25px;
+}
+
+/* 
+.box {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+.box3 { background:#05621c;} */
+
+.boxback {
+    /* color: rgb(238, 238, 238); */
+    /* font-size: 15px; */
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+    /* background-image: url('images\background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    padding:1px;
+}
+.bigbox{
+
+/* 
+    display: flex;
+    display: inline-flex;
+
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+
+    align-items: normal;
+    align-items: flex-end;
+    align-items: flex-start;
+    align-items: center;
+    align-items: baseline;
+
+    align-content: normal;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-between;
+    align-content: space-around;
+     */
+
+     padding-left: 300px;
+     padding-right: 300px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     justify-content: center;
+     align-items: stretch;
+     align-content: normal;
+}
+
+.leftbox{
+    /* size: 10px; */
+    /* display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1px;
+    align-self: auto;
+    order: 0; */
+    width: 800px;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 75;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    padding-top: 3px;
+    background-image: url("images/worldback.png");
+    /* background-repeat: no-repeat; */
+    /* backface-visibility: visible;
+    background-attachment:local;
+    backdrop-filter:inherit; */
+    /* padding-left: 100px; */
+    
+}
+
+.rightbox{
+    /* display:block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1px;
+    align-self: auto;
+    order: 0;
+    flex-direction: column; */
+    display:contents;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: content;
+    /* align-self:stretch; */
+    order: 1;
+    padding-top: 3px;
+    width: 50PX;
+    text-align: left;
+}
+
+.box1 {
+    color: rgb(238, 238, 238);
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    /* background-image: url('images\background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    /* background: url("images\background.png"); */
+    display: inline-block;
+    /* background-size: cover;
+    background-repeat: repeat-y; */
+}
+
+.box2 {
+    /* color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center; */
+    /* padding: 15px;
+    background-image: url('images\background.png');
+    background-repeat: repeat-y; */
+    /* background: url("images\background.png"); */
+    display: inline-block;
+    /* background-size: cover;
+    background-repeat: repeat-y; */
+    width: 400px;
+
+}
+
+
+.box3 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    background:#05621c;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 50;
+    align-self: auto;
+    order: 0;
+}
+
+.box4 {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    background:#05621c;
+}
