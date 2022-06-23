@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <h6 id="refreshpage"></h6>
+    <h6 id="refreshpageyes"></h6>
+    <h6 id="refreshpageno"></h6>
+    <img id="boom">
+    <br><br><br>
+    <div>        
+        <h4 id="endscreen"></h4>
+
+            <!-- h4 ending screen font -->
+        <h1>The Dice Game at the End of the World!.... now with very poor web formatting! Hooray!</h1>
+        <h3>Play this with a friend (bonus objective: get a friend. Bonus objective current status: not completed)<br>
+        Either player rolls the dice (player 1 first). If the player rolls a 1, the other player wins<br>
+        If the player keeps rolling dice to get above 20, that player wins<br>
+        The player can keep rolling or hold their dice. If they hold the other plays has to roll<br>
+        <br>If either player is a complete looser (one player wins 10 first) then the losing player gets a special 'reward' for showing what a looser they are
+        <h5 style="text-align: center;">Please note that if you've already played the game and nothing happened when you lost 10 games to the other player, well, this one will. You can trust me on that.*</h5>
+        <h5 style="text-align: center;">*Disclamer: You cannot trust me on that</h6><br><br>
+
+        <button id="newgame" style="font-size: 20px;">Restart Game (shortcut key: N)</button><br><br><br>
+    </div>
+
+    <div>
+    <per><h1 id="turn">It's Player 1 turn</h1></per>
+    </div>
+
+    <div>
+    <h1 id="p1score">Player 1 Score</h1>
+    <h1 id="p2score">Player 2 Score</h1>
+    <br>
+
+    <div id="container">
+        <img id="dice">
+    </div>
+
+    <div>
+    <button id="roll"">Roll the dice (shortcut key: R)</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="hold";>Hold (shotcut key: H)</button>
+</div>
+
+    <div>
+    <h1 id="p1tally">Player 1 won 0 times</h1>
+    <h1 id="p2tally">Player 2 won 0 times</h1>
+    <br>
+    <script src="./game.js"></script>
+</body>
+</html>
