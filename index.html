@@ -1,122 +1,54 @@
-<!-- 
-  https://www.greatamericanbmc.org/ 
--->
-<!-- <a href="https://www.greatamericanbmc.org/" target="_blank"></a> -->
-<!-- <a href="https://www.computerhope.com/" style="text-decoration: none">Computer Hope.</a> -->
-
 
 <!DOCTYPE html>
-<html>
-    <link rel="stylesheet" type=text/css href="style.css">
+<html lang="en">
     <head>
-      <div style= "background-image: url('images/background.png'); background-repeat:repeat-x; ">
-        <span style="color: #ffffff; font-size: 14px";>
-          <a href="https://www.greatamericanbmc.org/" target="_blank" style="text-decoration: none; color: #ffffff;">WELCOME</a>
-          <a href="https://www.greatamericanbmc.org/" target="_blank" style="text-decoration: none; color: #ffffff;">ABOUT</a>
-          <a href="https://www.greatamericanbmc.org/" target="_blank" style="text-decoration: none; color: #ffffff;">TICKETS</a>
-          <a href="https://www.greatamericanbmc.org/" target="_blank" style="text-decoration: none; color: #ffffff;">LODGING</a>
-          <a href="https://www.greatamericanbmc.org/" target="_blank" style="text-decoration: none; color: #ffffff;">JUDGING PANEL</a> 
-          <a href="https://www.greatamericanbmc.org/" target="_blank" style="text-decoration: none; color: #ffffff;">CATEGORIES</a>
-          <a href="https://www.greatamericanbmc.org/" target="_blank" style="text-decoration: none; color: #ffffff;">CHARITIES</a>
-          <a href="https://www.greatamericanbmc.org/" target="_blank" style="text-decoration: none; color: #ffffff;">CONTACT US</a>
-        <div class="dropdown">
-          <button class="dropbtn">2018 RICHMOND</button>
-          <div class="dropdown-content">
-            <a href="https://www.greatamericanbmc.org/" target="_blank">Something</a>
-            <a href="https://www.greatamericanbmc.org/" target="_blank">Something else</a>
-            <a href="https://www.greatamericanbmc.org/" target="_blank">Something even more else</a>
-          </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn">2018 RICHMOND</button>
-          <div class="dropdown-content">
-            <a href="https://www.greatamericanbmc.org/" target="_blank">Something</a>
-            <a href="https://www.greatamericanbmc.org/" target="_blank">Something else</a>
-            <a href="https://www.greatamericanbmc.org/" target="_blank">Something even more else</a>
-          </div>
-        </div>
-        </span><br>
+    <meta charset="UTF-8">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./game.css">
+</head>
+<body>
+    <h6 id="refreshpage"></h6>
+    <h6 id="refreshpageyes"></h6>
+    <h6 id="refreshpageno"></h6>
+    <img id="boom" class="shake">
+    <br><br><br>
+    <div>        
+        <h4 id="endscreen"></h4>
 
-        <pre><img src="images\logo.png" alt="logos"> <img src="images\logo2.png" alt="logos">        <img src="images\mainlogo.png" alt="logos" ><br></pre>
+            <!-- h4 ending screen font -->
+        <h1>The Dice Game at the End of the World!.... now with very poor web formatting! Hooray!</h1>
+        <h3>Play this with a friend (bonus objective: get a friend. Bonus objective current status: not completed)<br>
+        Either player rolls the dice (player 1 first). If the player rolls a 1, the other player wins<br>
+        If the player keeps rolling dice to get above 20, that player wins<br>
+        The player can keep rolling or hold their dice. If they hold the other plays has to roll<br>
+        <br>If either player is a complete looser (one player wins 10 first) then the losing player gets a special 'reward' for showing what a looser they are
+        <h5 style="text-align: center;">Please note that if you've already played the game and nothing happened when you lost 10 games to the other player, well, this one will. You can trust me on that.*</h5>
+        <h5 style="text-align: center;">*Disclamer: You cannot trust me on that</h6><br><br>
+
+        <button id="newgame" style="font-size: 20px;">Restart Game (shortcut key: N)</button><br><br><br>
     </div>
-  </div>
 
-</div>
-  </head>
-    <body>
+    <div>
+    <per><h1 id="turn">It's Player 1 turn</h1></per>
+    </div>
 
-    <!-- <div class="box box2"> -->
+    <div>
+    <h1 id="p1score">Player 1 Score</h1>
+    <h1 id="p2score">Player 2 Score</h1>
+    <br>
 
-    <!-- </div> -->
-    
-  <div class="box box3" style="width: 600; margin: 0 auto;">Get Ready for North America's Ultimate Facial Hair Championship!</div>
-  <br>
-<div class="box bigbox" style="width: 100; margin: 0 auto;">
-  <!-- <div class="box bigbox" style="width: 100; margin: 0 auto;"></div> -->
-  <div class="box leftbox">
+    <div id="container">
+        <img id="dice" class="rounded">
+    </div>
 
-      <div style="text-align: left;">
-      The  <span style="color: #0f4118; font-weight: bold;">North American Competitive Beard Moustache Alliance (NACBMA)</span> and <span style="color: #0f4118; font-weight: bold;">Salty Saints Social Club & Facial Hair Society </span> invite you to North America's ultimate charity facial hair championship! Join us up in the alpine beauty of Utah's Wasatch mountains at <span style="color: #0f4118; font-weight: bold;">Snowbird Resort</span> on <span style="font-weight: bold;">June 25th</span> for the <span style="font-weight: bold;">2022 Great American Beard & Moustache Championship, Presented by Honest Amish! </span>We have 4 days of fun and activities lined up.
-      <br><br>
-        A grassroots event held in even-numbered years, and backed by 60 facial hair clubs across the United States & Canada, the GABMC gathers together international competitors sporting the finest, biggest, and best beards and moustaches from North America and beyond for charity & bragging rights.
-        <br>
-
-        <h2><span style="color: #00035e;">A few details</span></h2>
-        <li><span style="color: #0f4118; font-weight: bold;">Tickets, registration, and category information </span>is available in our <span style="color: #0f4118; font-weight: bold;">Categories</span> section.</li>
-        <li>We'll have blocks of rooms at group rates at Snowbird suitable for everyone from couples and families to groups. With everything centralized, the events will be within strolling distance from your room.</li>
-        <li>Keep an eye out for events planned Thursday & Friday nights, and of course a brunch Sunday.  </li>
-        <li>There's plenty to see and do in the area, and with so many national and state parks within a few hours drive, it's a great opportunity to make a mini-vacation of the trip and explore the wonders of America's Mountain West. </li>
-<br>
-      We would like to take a moment to thank everyone once again for their support of the <span style="color: #0f4118; font-weight: bold;">2018 GABMC in Richmond. </span>We had over 340 competitors representing 39 states (including Alaska!), 3 Canadian provinces, the U.K., Germany, and Japan, and raised an astounding <span style="font-weight: bold;">$25,220 </span>for The Humane Society of the United States & the Pink Ink Fund, a record for any single-day facial hair competition anywhere!
-
-  </div> <!-- left box stop -->
-  <div class="box rightbox"></div>
-  <div>
-  <span style="text-align: left;">
-  <img src="images\bigimage.jpg" alt="bigimage"  width="300" height="300"><br>
-  <img src="images\beard1.jpg" alt="bigimage"  width="300" height="200"><br>
-  <img src="images\bigimage2.jpg" alt="bigimage"  width="300" height="300"><br>
-  
-  <div class="box box4" style="width: 100; margin: 0 auto;">
-    We'll see you there, right?<br>
-    <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\facebook.png" alt="facebook" align="middle" ></a>
-      <span style="font-weight: bold;"> 2022 Great American Beard & Moustache Championship</span>
+    <div>
+    <button id="roll"">Roll the dice (shortcut key: R)</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="hold";>Hold (shotcut key: H)</button>
 </div>
 
-  <span style="font-size: 10px;">PHOTO CREDITS: SNOWBIRD/MATT CRAWLEY, SNOWBIRD/JAY DASH • TERRY BROWN PHOTOGRAPHY • BLAKE ULMERM</span>
-
-  </span>
-  </div> <!-- right box stop -->
-</div> <!-- big box stop -->
-
-</div>
-<div class="box box5" style="width: 600; margin: 0 auto;">
-  <per><img src="images\instagram.png" alt="bigimage"  width="auto" height="auto"><br>
-    @NACBMA<br>
-    Instagram</per>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-  <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\image1.png" alt="bigimage"  width="110" height="110"></a>&nbsp;
-  <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\image1.png" alt="bigimage"  width="110" height="110"></a>&nbsp;
-  <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\image1.png" alt="bigimage"  width="110" height="110"></a>&nbsp;
-  <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\image1.png" alt="bigimage"  width="110" height="110"></a>&nbsp;
-  <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\image1.png" alt="bigimage"  width="110" height="110"></a>&nbsp;
-
-</div>
-
-<br>
-<br>
-
-</div>
-<div class="box box6" style="width: 600; margin: 0 auto;">
-  <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\whtiefacebook.png" alt="bigimage"  width="auto" height="auto"></a>
-  <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\whiteinstagram.png" alt="bigimage"  width="auto" height="auto"></a>
-  <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\whitetwitter.png" alt="bigimage"  width="auto" height="auto"></a>
-  <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\whitetumbler.png" alt="bigimage"  width="auto" height="auto"></a>
-  <a href="https://www.greatamericanbmc.org/" target="_blank"><img src="images\bottomlogo.png" alt="bigimage"  width="auto" height="auto"></a>
-  <span style="font-size: 15px; font-weight: bold;">  © 2011-2022 NORTH AMERICAN COMPETITIVE BEARD AND MOUSTACHE ALLIANCE 
-
-          <!-- <a href="url">link text</a> &nbsp <a href="url">link text</a> -->
-</div>
-
+    <div>
+    <h1 id="p1tally">Player 1 won 0 times</h1>
+    <h1 id="p2tally">Player 2 won 0 times</h1>
+    <br>
+    <script src="./game.js"></script>
 </body>
 </html>
